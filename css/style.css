@@ -20,3 +20,48 @@
   --primary-font: Roboto, sans-serif;
 }
 /* FINM VARIÁVEIS */
+
+body {
+  height: 100dvh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+  background-color: var(--dark-50);
+  padding: 5rem 0rem 0rem 0rem;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.2rem;
+}
+.header__text__title {
+  font: 600 2.3rem var(--primary-font);
+  width: 35rem;
+}
+
+.header__text__title span {
+  color: #846aff;
+}
+
+.header__text__subtitle {
+  font: 400 1rem var(--primary-font);
+  width: 25rem;
+}
+
+.header__text__button {
+  background: var(--brand-color);
+  color: #fff;
+  font: 600 1.2rem var(--primary-font);
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+}
+
+.header__img {
+  width: 25rem;
+}
